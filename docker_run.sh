@@ -20,5 +20,5 @@ docker run --rm \
     --volume="$XAUTH:$XAUTH" \
     --runtime=nvidia \
     -p 8888:8888 \
-    \
+    --volume="/DATASET:/DATASET:ro" \
     orb_slam2
