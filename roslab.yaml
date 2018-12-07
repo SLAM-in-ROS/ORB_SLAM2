@@ -1,0 +1,16 @@
+name: orb_slam2
+
+distro: kinetic
+
+runtime: nvidia
+
+packages:
+  - libglew-dev
+	- libeigen3-dev
+	- libopencv-dev
+  
+source:
+  - name: Pangolin
+    repo: https://github.com/stevenlovegrove/Pangolin.git
+    depends:
+    build: cmake
