@@ -6,8 +6,8 @@ runtime: nvidia
 
 packages:
   - libglew-dev
-	- libeigen3-dev
-	- libopencv-dev
+  - libeigen3-dev
+  - libopencv-dev
   
 source:
   - name: Pangolin
