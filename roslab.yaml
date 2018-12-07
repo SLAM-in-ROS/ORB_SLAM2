@@ -17,5 +17,5 @@ source:
 
 volume:
   - host_path: /DATASET
-  - container_path: /DATASET
-  - options: ro
+    container_path: /DATASET
+    options: ro
