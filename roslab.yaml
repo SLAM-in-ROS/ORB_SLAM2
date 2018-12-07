@@ -19,3 +19,7 @@ volume:
   - host_path: /DATASET
     container_path: /DATASET
     options: ro
+
+custom:
+  - ./build.sh
+  - ./build_ros.sh
