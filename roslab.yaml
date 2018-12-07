@@ -14,3 +14,8 @@ source:
     repo: https://github.com/stevenlovegrove/Pangolin.git
     depends:
     build: cmake
+
+volume:
+  - host_path: /DATASET
+  - container_path: /DATASET
+  - options: ro
