@@ -22,4 +22,4 @@ volume:
 
 custom:
   - ./build.sh
-  - ./build_ros.sh
+  - rosdep update && ./build_ros.sh
